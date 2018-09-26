@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+		<link rel="stylesheet" href="static/style.css">
+		<title>BasketBall Visualizer</title>
+		<header id="site_banner">
+			<h1>Welcome to the Basketball Visualizer!</h1>
+		</header>
+	</head>
+	<body>
+		<div id="container">
+			<form action="http://google.com">
+			<button type="button" id="shotxy" value="Shot Map" onclick="location.href='http://127.0.0.1:5000/shots.html'">Shot Map</button>
+			<button id="shotdist">Shot Distance</button>
+			<button id="player">Player Stats</button>
+		</form>
+		</div>
+		<div id="site_footer">
+			<p>A project by Sarthak Batra</p>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+		<link rel="stylesheet" href="static/shot.css">
+		<title>Shot Map</title>
+		<header id="site_banner">
+			<h1>Shot Map</h1>
+		</header>
+	</head>
+	<body>
+		<div id="container">
+			<select id="selector"></select>
+			<svg id="canvas" height="600px" width="800px"></svg>
+		</div>
+		<div id="stats"></div>
+		<script src="static/shots.js"></script>
+		<div id="site_footer">
+			<p>A project by Sarthak Batra</p>
+		</div>
+	</body>
+</html>
+

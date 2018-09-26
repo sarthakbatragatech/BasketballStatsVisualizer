@@ -1,0 +1,72 @@
+html {
+  font-family: sans-serif;
+  background: #eee;
+  padding: 1rem;
+}
+
+body {
+  margin: 0 auto;
+}
+
+svg {
+  border: 1px solid black;
+  background-image: url('img/court.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+#site_banner {
+  background: #FF8C00;
+  color: white;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  border: 1px solid black;
+  bottom: 20px;
+}
+
+#site_banner h1 {
+  font-family: "Courier New";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  min-height: 80vh;
+  background: lightblue;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#selector {
+  margin-bottom: 50px;
+}
+
+#site_footer {
+  background: #FF8C00;
+  color: white;
+  padding: 3px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#site_footer p {
+  font-family: "Times New Roman";
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
+}
+
+.description {
+  fill: #377ba8;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
